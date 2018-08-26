@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri:400,600,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'El Messiri', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #031513;
+}
+
+.App {
+    min-width: 420px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+/*--------------- Header --------------*/
+
+header {
+    padding: 1rem;
+    background-color: #189989;
+}
+
+.title h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-size: 4.5rem;
+}
+
+.title * {
+    display: inline-block;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.round {
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 5px solid #031513;
+    background-color: #189989;
+    border-radius: 50%;
+    position: relative;
+}
+
+.round .fa-address-book {
+    color: #031513;
+    margin-right: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*------------- Forms -------------*/
+
+form {
+    width: auto;
+    margin: 0 auto;
+    border: 1px solid #031513;
+    background-color: #9ef0e6;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+form input {
+    width: 100%;
+}
+
+.control-form {
+    margin-bottom: .8rem;
+}
+
+.add-contact-form button {
+    margin-top: .5rem;
+    padding: .6rem;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #031513;
+    color: white;
+    cursor: pointer;
+}
+
+.add-contact-form button:active {
+    background-color: #062420;
+}
+
+.sort-data select {
+    width: calc(100% - 35px);
+}
+
+.sort-data {
+    margin-bottom: .5rem;
+}
+
+.sort-data label {
+    display: inline-block;
+    margin-right: .3rem;
+    font-weight: 900;
+}
+
+/*-------------- Contacts and Search Contacts ----------------*/
+
+.contact {
+    background-color: #caf7f1;
+}
+
+.contact,
+.find-contact {
+    margin-bottom: .3rem;
+    padding: .5rem;
+}
+
+.contact-flex,
+.find-contact-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact:last-child {
+    margin: 0;
+}
+
+.contact-address {
+    text-align: center;
+}
+
+.find-contact-address {
+    text-align: center;
+}
+
+.search-field {
+    margin: 1rem .2rem;
+    border: 1px solid #031513;
+    padding: .4rem;
+}
+
+.search-field h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
